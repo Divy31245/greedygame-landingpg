@@ -1,0 +1,22 @@
+.headerMain {
+
+    top: 0px;
+    left: 0px;
+    width: 1600px;
+    height: 80px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+}
+
+.icon {
+    background: transparent url('../../assets/header/header-icon.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 194px;
+    height: 25px;
+    position: absolute;
+    top: 27px;
+    left: 60px;
+}
