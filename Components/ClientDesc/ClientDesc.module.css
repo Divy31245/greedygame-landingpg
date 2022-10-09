@@ -64,3 +64,18 @@
     width: 117px;
     background: transparent url('../../assets/d11.png') 0% 0% no-repeat padding-box;
 }
+
+@media (max-width:480px) {
+    .main{
+        position: static;
+        width: inherit;
+        padding-left: 0%;
+    }
+    .descgrid{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .quote{
+
+    }
+}

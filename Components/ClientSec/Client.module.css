@@ -49,3 +49,12 @@
     width: 50%;
     gap: 10%;
 }
+
+@media (max-width:480px) {
+    .main{
+        position: static;
+    }
+    .Clientgrid{
+        grid-template-columns: 0.5fr 0.5fr
+    }
+}

@@ -67,3 +67,15 @@
     width: 187px;
     height: 169px;
 }
+
+@media (max-width:480px) {
+    .main {
+        position: static;
+        padding-top: 10%;
+    }
+
+    .companyGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
