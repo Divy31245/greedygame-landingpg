@@ -10,6 +10,7 @@
     left: 55%;
     width: 35%;
     padding: 35px;
+    top: 20%;
 }
 
 .secDiv .formlabel {
@@ -98,4 +99,27 @@
 
 .span {
   color: #126FED;
+}
+
+
+@media (max-width: 480px) {
+    .formdiv{
+      display: flex;
+      position: static;
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+      padding-left: 20%;
+    padding-right: 20%;
+      
+    }
+
+    .div1{
+      flex-direction: column;
+      justify-content: center;
+    
+    }
+    .secDiv{
+      padding: 0;
+    }
 }

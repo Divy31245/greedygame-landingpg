@@ -1,7 +1,9 @@
+import MidSection from '../MidSection/MidSection';
 import styles from './RhomepgComp.module.css'
 
 const RhomepgComp = () =>{
         return(
+            <>
             <div className={styles.main}>
                 {/* first div containing title and img */}
                 <div className={styles.cont1}>
@@ -36,8 +38,10 @@ const RhomepgComp = () =>{
                     </div>
                     
                 </div>
-
+                
             </div>
+            {/* <MidSection /> */}
+            </>
         )
 }
 

@@ -15,7 +15,12 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (max-width:480px) {
   
+  *{
+    box-sizing:content-box;
+    padding: 4px;
+    margin:0px
+  }
   
 }

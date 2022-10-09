@@ -1,4 +1,4 @@
-import Head from "next/head";
+import MidSection from "../Components/MidSection/MidSection";
 import RhomepgComp from "../Components/RightHomepg/RhomepgComp";
 import Form from "../Components/Form/Form";
 import Header from "../Components/Header/Header";
@@ -8,24 +8,21 @@ import styles from "../styles/Home.module.css";
 // import Image from "next/image";
 export default function Home() {
   return (
-    <div className={styles.first}>
+    <>
       <Header />
-      
-      <div className={styles.container1}>
-      <div className={styles.icon2}>
-      </div>
-      <RhomepgComp />
-      <Form />
-      <div className={styles.icon1}>
-      </div>
-      </div>
-       
-     
-     
+
+      <div className={styles.first}>
+        <div className={styles.container1}>
+          {/* <div className={styles.icon2}></div> */}
+          
+          <RhomepgComp />
+          
+          <Form />
+          <div className={styles.icon1}></div>
+          <MidSection/>
+        </div>
         
-     
-      
-      
-    </div>
+      </div>
+    </>
   );
 }
