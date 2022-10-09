@@ -34,6 +34,10 @@
     }
     .mobileicon{
         display: block;
+        background: transparent url('../../assets/menu.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 21px;
+    height: 17px;
     }
     
 }
