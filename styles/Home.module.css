@@ -1,16 +1,17 @@
 .first {
-    
+
     display: flex;
     flex-direction: column;
 }
-.container1{
+
+.container1 {
     display: flex;
     flex-direction: column;
-   
-}
-.container2{
 
 }
+
+.container2 {}
+
 .icon1 {
     background-image: url("../assets/first/i1.svg");
     background-repeat: no-repeat;
@@ -35,10 +36,14 @@
 
 
 @media (max-width: 480px) {
-    .container1{
-        
+    .container1 {
+
         justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .first {
+        margin-top: 15%;
     }
 }

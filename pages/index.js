@@ -3,6 +3,10 @@ import RhomepgComp from "../Components/RightHomepg/RhomepgComp";
 import Form from "../Components/Form/Form";
 import Header from "../Components/Header/Header";
 import styles from "../styles/Home.module.css";
+import CompanySec from "../Components/CompanySec/CompanySec";
+import ClientSec from "../Components/ClientSec/ClientSec";
+import ClientDesc from "../Components/ClientDesc/ClientDesc";
+import Footer from "../Components/Footer/Footer";
 // import icon1 from "../assets/first/i1.svg"
 // import icon2 from "../assets/first/i2.svg"
 // import Image from "next/image";
@@ -20,6 +24,10 @@ export default function Home() {
           <Form />
           <div className={styles.icon1}></div>
           <MidSection/>
+          <CompanySec />
+          <ClientSec />
+          <ClientDesc />
+          <Footer />
         </div>
         
       </div>

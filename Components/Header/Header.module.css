@@ -20,3 +20,20 @@
     top: 27px;
     left: 60px;
 }
+.mobileicon{
+    display: none;
+}
+
+@media (max-width:480px) {
+    .headerMain{
+        position: fixed;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    .mobileicon{
+        display: block;
+    }
+    
+}
