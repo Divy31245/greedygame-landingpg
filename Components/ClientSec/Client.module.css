@@ -53,6 +53,7 @@
 @media (max-width:480px) {
     .main{
         position: static;
+        padding-left: 0;
     }
     .Clientgrid{
         grid-template-columns: 0.5fr 0.5fr

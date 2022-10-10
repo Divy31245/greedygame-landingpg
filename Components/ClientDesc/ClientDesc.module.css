@@ -69,14 +69,17 @@
 @media (max-width:480px) {
     .main{
         position: static;
-        width: inherit;
+        width: 130vw;
         padding-left: 0%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
     }
     .descgrid{
         width: 100%;
         margin-top: 10%;
     }
     .quote{
-
+        width: 80%;
     }
 }

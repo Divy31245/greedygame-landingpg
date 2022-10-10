@@ -72,6 +72,7 @@
     .main {
         position: static;
         padding-top: 10%;
+        padding-left: 0;
     }
 
     .companyGrid {

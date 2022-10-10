@@ -61,10 +61,10 @@
     .main {
         position: static;
 
-        width: inherit;
+        width: 139vw;
 
         border: 2px solid;
-
+        padding-left: 0;
         background: #1A1A1A 0% 0% no-repeat padding-box;
         border: 1px solid #707070;
         opacity: 1;
@@ -72,14 +72,17 @@
         flex-direction: column;
         justify-content: center;
         height: 34vh;
+        padding: 2%;
+        
     }
 
     .footerSpan {
         display: flex;
         justify-content: center;
-        align-items: column;
+       
         align-items: center;
-        margin-top: 4%;
+        margin-top: 2%;
+        padding: 2px;
         flex-direction: column;
     }
 
@@ -95,6 +98,7 @@
         justify-content: center;
         align-items: center;
         width: auto;
+        margin-bottom: 20%;
     }
 
 }

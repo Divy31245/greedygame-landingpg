@@ -34,6 +34,10 @@
     z-index: -1;
 }
 
+.btmFix{
+    display: none;
+}
+
 
 @media (max-width: 480px) {
     .container1 {
@@ -41,9 +45,51 @@
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
     }
 
     .first {
         margin-top: 15%;
+    }
+
+    .icon2 {
+        display: none;
+    }
+
+    .btmFix {
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 3px 36px #00000029;
+        opacity: 1;
+        width: 100%;
+        display: flex;
+        height: 5%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .btmPara {
+        text-align: left;
+        font: normal normal 600 16px/20px Lato;
+        letter-spacing: 0px;
+        color: #1D1A1A;
+        opacity: 1;
+        margin-right: 2%;
+    }
+
+    .btmbutton {
+        width: 159px;
+        height: 44px;
+        background: #126FED 0% 0% no-repeat padding-box;
+        border-radius: 6px;
+        opacity: 1;
+        text-align: center;
+        font: normal normal bold 19px/29px Lato;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
     }
 }

@@ -15,22 +15,23 @@ export default function Home() {
     <>
       <Header />
 
-      <div className={styles.first}>
-        <div className={styles.container1}>
-          {/* <div className={styles.icon2}></div> */}
-          
-          <RhomepgComp />
-          
-          <Form />
-          <div className={styles.icon1}></div>
-          <MidSection/>
-          <CompanySec />
-          <ClientSec />
-          <ClientDesc />
-          <Footer />
-        </div>
-        
+      <div className={styles.container1}>
+        <div className={styles.icon2}></div>
+
+        <RhomepgComp />
+
+        <Form />
+        <div className={styles.icon1}></div>
+        <MidSection />
+        <CompanySec />
+        <ClientSec />
+        <ClientDesc />
+        <Footer />
       </div>
+        <div className={styles.btmFix}>
+          <div className={styles.btmPara}>Get a Call back from us</div>
+          <button className={styles.btmbutton}>Get Started</button>
+        </div>
     </>
   );
 }
