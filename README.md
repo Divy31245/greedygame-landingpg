@@ -8,5 +8,7 @@ A Landing page made with Next.js and CSS.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![App Screenshot](pc.png)
+![App Screenshot](pc2.png)
+![App Screenshot](mobile1.png)
+![App Screenshot](mobile2.png)
